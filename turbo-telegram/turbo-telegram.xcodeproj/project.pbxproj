@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1F6EE672C5F2C140091F361 /* turbo_telegramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F6EE662C5F2C140091F361 /* turbo_telegramApp.swift */; };
+		B1F6EE692C5F2C140091F361 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F6EE682C5F2C140091F361 /* ContentView.swift */; };
+		B1F6EE6B2C5F2C140091F361 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F6EE6A2C5F2C140091F361 /* Item.swift */; };
+		B1F6EE6D2C5F2C150091F361 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1F6EE6C2C5F2C150091F361 /* Assets.xcassets */; };
+		B1F6EE702C5F2C150091F361 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1F6EE6F2C5F2C150091F361 /* Preview Assets.xcassets */; };
+		B1F6EE7A2C5F2C5D0091F361 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F6EE792C5F2C5D0091F361 /* Employee.swift */; };
+		B1F6EE7E2C5F2FAD0091F361 /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F6EE7D2C5F2FAD0091F361 /* Role.swift */; };
+		B1F6EE832C5F31F00091F361 /* EmployeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F6EE822C5F31F00091F361 /* EmployeeView.swift */; };
+		B1F6EE852C5F32070091F361 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F6EE842C5F32070091F361 /* ScheduleView.swift */; };
+		B1F6EE872C5F382E0091F361 /* RoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F6EE862C5F382E0091F361 /* RoleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B1F6EE632C5F2C140091F361 /* turbo-telegram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "turbo-telegram.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1F6EE662C5F2C140091F361 /* turbo_telegramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = turbo_telegramApp.swift; sourceTree = "<group>"; };
+		B1F6EE682C5F2C140091F361 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B1F6EE6A2C5F2C140091F361 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		B1F6EE6C2C5F2C150091F361 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1F6EE6F2C5F2C150091F361 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B1F6EE792C5F2C5D0091F361 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		B1F6EE7D2C5F2FAD0091F361 /* Role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
+		B1F6EE822C5F31F00091F361 /* EmployeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeView.swift; sourceTree = "<group>"; };
+		B1F6EE842C5F32070091F361 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		B1F6EE862C5F382E0091F361 /* RoleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1F6EE602C5F2C140091F361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1F6EE5A2C5F2C140091F361 = {
+			isa = PBXGroup;
+			children = (
+				B1F6EE652C5F2C140091F361 /* turbo-telegram */,
+				B1F6EE642C5F2C140091F361 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1F6EE642C5F2C140091F361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1F6EE632C5F2C140091F361 /* turbo-telegram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1F6EE652C5F2C140091F361 /* turbo-telegram */ = {
+			isa = PBXGroup;
+			children = (
+				B1F6EE662C5F2C140091F361 /* turbo_telegramApp.swift */,
+				B1F6EE682C5F2C140091F361 /* ContentView.swift */,
+				B1F6EE7F2C5F31B90091F361 /* Views */,
+				B1F6EE782C5F2C550091F361 /* Models */,
+				B1F6EE6A2C5F2C140091F361 /* Item.swift */,
+				B1F6EE6C2C5F2C150091F361 /* Assets.xcassets */,
+				B1F6EE6E2C5F2C150091F361 /* Preview Content */,
+			);
+			path = "turbo-telegram";
+			sourceTree = "<group>";
+		};
+		B1F6EE6E2C5F2C150091F361 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B1F6EE6F2C5F2C150091F361 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B1F6EE782C5F2C550091F361 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B1F6EE792C5F2C5D0091F361 /* Employee.swift */,
+				B1F6EE7D2C5F2FAD0091F361 /* Role.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B1F6EE7F2C5F31B90091F361 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1F6EE822C5F31F00091F361 /* EmployeeView.swift */,
+				B1F6EE862C5F382E0091F361 /* RoleView.swift */,
+				B1F6EE842C5F32070091F361 /* ScheduleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1F6EE622C5F2C140091F361 /* turbo-telegram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1F6EE732C5F2C150091F361 /* Build configuration list for PBXNativeTarget "turbo-telegram" */;
+			buildPhases = (
+				B1F6EE5F2C5F2C140091F361 /* Sources */,
+				B1F6EE602C5F2C140091F361 /* Frameworks */,
+				B1F6EE612C5F2C140091F361 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "turbo-telegram";
+			productName = "turbo-telegram";
+			productReference = B1F6EE632C5F2C140091F361 /* turbo-telegram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1F6EE5B2C5F2C140091F361 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B1F6EE622C5F2C140091F361 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = B1F6EE5E2C5F2C140091F361 /* Build configuration list for PBXProject "turbo-telegram" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1F6EE5A2C5F2C140091F361;
+			productRefGroup = B1F6EE642C5F2C140091F361 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1F6EE622C5F2C140091F361 /* turbo-telegram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1F6EE612C5F2C140091F361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F6EE702C5F2C150091F361 /* Preview Assets.xcassets in Resources */,
+				B1F6EE6D2C5F2C150091F361 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1F6EE5F2C5F2C140091F361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F6EE692C5F2C140091F361 /* ContentView.swift in Sources */,
+				B1F6EE7A2C5F2C5D0091F361 /* Employee.swift in Sources */,
+				B1F6EE832C5F31F00091F361 /* EmployeeView.swift in Sources */,
+				B1F6EE852C5F32070091F361 /* ScheduleView.swift in Sources */,
+				B1F6EE6B2C5F2C140091F361 /* Item.swift in Sources */,
+				B1F6EE672C5F2C140091F361 /* turbo_telegramApp.swift in Sources */,
+				B1F6EE872C5F382E0091F361 /* RoleView.swift in Sources */,
+				B1F6EE7E2C5F2FAD0091F361 /* Role.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B1F6EE712C5F2C150091F361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1F6EE722C5F2C150091F361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1F6EE742C5F2C150091F361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"turbo-telegram/Preview Content\"";
+				DEVELOPMENT_TEAM = 6W56PZLJZG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pjb.den.turbo-telegram";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1F6EE752C5F2C150091F361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"turbo-telegram/Preview Content\"";
+				DEVELOPMENT_TEAM = 6W56PZLJZG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pjb.den.turbo-telegram";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1F6EE5E2C5F2C140091F361 /* Build configuration list for PBXProject "turbo-telegram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1F6EE712C5F2C150091F361 /* Debug */,
+				B1F6EE722C5F2C150091F361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1F6EE732C5F2C150091F361 /* Build configuration list for PBXNativeTarget "turbo-telegram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1F6EE742C5F2C150091F361 /* Debug */,
+				B1F6EE752C5F2C150091F361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1F6EE5B2C5F2C140091F361 /* Project object */;
+}
