@@ -1,18 +1,19 @@
 //
-//  turbo_telegramApp.swift
-//  turbo-telegram
+//  turbo_telegram_2App.swift
+//  turbo-telegram-2
 //
-//  Created by m1_air on 8/3/24.
+//  Created by m1_air on 8/4/24.
 //
 
 import SwiftUI
 import SwiftData
 
 @main
-struct turbo_telegramApp: App {
+struct turbo_telegram_2App: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
+            Employee.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -25,7 +26,7 @@ struct turbo_telegramApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            EmployeeList()
         }
         .modelContainer(sharedModelContainer)
     }

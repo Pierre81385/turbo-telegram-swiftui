@@ -1,12 +1,11 @@
 //
-//  Role.swift
-//  turbo-telegram
+//  EmployeeStructs.swift
+//  turbo-telegram-2
 //
-//  Created by m1_air on 8/3/24.
+//  Created by m1_air on 8/4/24.
 //
 
 import Foundation
-import SwiftData
 
 enum DayKeys: String, Codable, CaseIterable {
     case Monday
@@ -80,18 +79,4 @@ enum LocationKeys: String, Codable, CaseIterable {
     static var allRawValues: [String] {
             return allCasesArray.map { $0.rawValue }
         }
-}
-
-@Model class Role {
-    var name: RoleKeys
-    var assigned: [String]
-    var location: LocationKeys
-    var day: DayKeys
-    
-    init(name: RoleKeys, assigned: [String], location: LocationKeys, day: DayKeys) {
-        self.name = name
-        self.assigned = assigned
-        self.location = location
-        self.day = day
-    }
 }

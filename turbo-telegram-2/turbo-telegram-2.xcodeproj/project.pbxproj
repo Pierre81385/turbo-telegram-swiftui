@@ -7,34 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B1F6EE672C5F2C140091F361 /* turbo_telegramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F6EE662C5F2C140091F361 /* turbo_telegramApp.swift */; };
-		B1F6EE692C5F2C140091F361 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F6EE682C5F2C140091F361 /* ContentView.swift */; };
-		B1F6EE6B2C5F2C140091F361 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F6EE6A2C5F2C140091F361 /* Item.swift */; };
-		B1F6EE6D2C5F2C150091F361 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1F6EE6C2C5F2C150091F361 /* Assets.xcassets */; };
-		B1F6EE702C5F2C150091F361 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1F6EE6F2C5F2C150091F361 /* Preview Assets.xcassets */; };
-		B1F6EE7A2C5F2C5D0091F361 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F6EE792C5F2C5D0091F361 /* Employee.swift */; };
-		B1F6EE7E2C5F2FAD0091F361 /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F6EE7D2C5F2FAD0091F361 /* Role.swift */; };
-		B1F6EE832C5F31F00091F361 /* EmployeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F6EE822C5F31F00091F361 /* EmployeeView.swift */; };
-		B1F6EE852C5F32070091F361 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F6EE842C5F32070091F361 /* ScheduleView.swift */; };
-		B1F6EE872C5F382E0091F361 /* RoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F6EE862C5F382E0091F361 /* RoleView.swift */; };
+		B1ECF0312C604BCD006C6871 /* turbo_telegram_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ECF0302C604BCD006C6871 /* turbo_telegram_2App.swift */; };
+		B1ECF0332C604BCD006C6871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ECF0322C604BCD006C6871 /* ContentView.swift */; };
+		B1ECF0352C604BCD006C6871 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ECF0342C604BCD006C6871 /* Item.swift */; };
+		B1ECF0372C604BCE006C6871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1ECF0362C604BCE006C6871 /* Assets.xcassets */; };
+		B1ECF03A2C604BCE006C6871 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1ECF0392C604BCE006C6871 /* Preview Assets.xcassets */; };
+		B1ECF0442C604C15006C6871 /* EmployeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ECF0432C604C15006C6871 /* EmployeeModel.swift */; };
+		B1ECF0462C604C29006C6871 /* EmployeeStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ECF0452C604C29006C6871 /* EmployeeStructs.swift */; };
+		B1ECF04A2C604CD1006C6871 /* EmployeeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ECF0492C604CD1006C6871 /* EmployeeListView.swift */; };
+		B1ECF04C2C604D45006C6871 /* EmployeeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ECF04B2C604D45006C6871 /* EmployeeDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B1F6EE632C5F2C140091F361 /* turbo-telegram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "turbo-telegram.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1F6EE662C5F2C140091F361 /* turbo_telegramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = turbo_telegramApp.swift; sourceTree = "<group>"; };
-		B1F6EE682C5F2C140091F361 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B1F6EE6A2C5F2C140091F361 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		B1F6EE6C2C5F2C150091F361 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B1F6EE6F2C5F2C150091F361 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B1F6EE792C5F2C5D0091F361 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
-		B1F6EE7D2C5F2FAD0091F361 /* Role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
-		B1F6EE822C5F31F00091F361 /* EmployeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeView.swift; sourceTree = "<group>"; };
-		B1F6EE842C5F32070091F361 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
-		B1F6EE862C5F382E0091F361 /* RoleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleView.swift; sourceTree = "<group>"; };
+		B1ECF02D2C604BCD006C6871 /* turbo-telegram-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "turbo-telegram-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1ECF0302C604BCD006C6871 /* turbo_telegram_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = turbo_telegram_2App.swift; sourceTree = "<group>"; };
+		B1ECF0322C604BCD006C6871 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B1ECF0342C604BCD006C6871 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		B1ECF0362C604BCE006C6871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1ECF0392C604BCE006C6871 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B1ECF0432C604C15006C6871 /* EmployeeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeModel.swift; sourceTree = "<group>"; };
+		B1ECF0452C604C29006C6871 /* EmployeeStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeStructs.swift; sourceTree = "<group>"; };
+		B1ECF0492C604CD1006C6871 /* EmployeeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListView.swift; sourceTree = "<group>"; };
+		B1ECF04B2C604D45006C6871 /* EmployeeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B1F6EE602C5F2C140091F361 /* Frameworks */ = {
+		B1ECF02A2C604BCD006C6871 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,59 +42,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B1F6EE5A2C5F2C140091F361 = {
+		B1ECF0242C604BCD006C6871 = {
 			isa = PBXGroup;
 			children = (
-				B1F6EE652C5F2C140091F361 /* turbo-telegram */,
-				B1F6EE642C5F2C140091F361 /* Products */,
+				B1ECF02F2C604BCD006C6871 /* turbo-telegram-2 */,
+				B1ECF02E2C604BCD006C6871 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B1F6EE642C5F2C140091F361 /* Products */ = {
+		B1ECF02E2C604BCD006C6871 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B1F6EE632C5F2C140091F361 /* turbo-telegram.app */,
+				B1ECF02D2C604BCD006C6871 /* turbo-telegram-2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B1F6EE652C5F2C140091F361 /* turbo-telegram */ = {
+		B1ECF02F2C604BCD006C6871 /* turbo-telegram-2 */ = {
 			isa = PBXGroup;
 			children = (
-				B1F6EE662C5F2C140091F361 /* turbo_telegramApp.swift */,
-				B1F6EE682C5F2C140091F361 /* ContentView.swift */,
-				B1F6EE7F2C5F31B90091F361 /* Views */,
-				B1F6EE782C5F2C550091F361 /* Models */,
-				B1F6EE6A2C5F2C140091F361 /* Item.swift */,
-				B1F6EE6C2C5F2C150091F361 /* Assets.xcassets */,
-				B1F6EE6E2C5F2C150091F361 /* Preview Content */,
+				B1ECF0302C604BCD006C6871 /* turbo_telegram_2App.swift */,
+				B1ECF0322C604BCD006C6871 /* ContentView.swift */,
+				B1ECF0342C604BCD006C6871 /* Item.swift */,
+				B1ECF0422C604C07006C6871 /* Views */,
+				B1ECF0412C604BFB006C6871 /* Models */,
+				B1ECF0402C604BED006C6871 /* Structs */,
+				B1ECF0362C604BCE006C6871 /* Assets.xcassets */,
+				B1ECF0382C604BCE006C6871 /* Preview Content */,
 			);
-			path = "turbo-telegram";
+			path = "turbo-telegram-2";
 			sourceTree = "<group>";
 		};
-		B1F6EE6E2C5F2C150091F361 /* Preview Content */ = {
+		B1ECF0382C604BCE006C6871 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				B1F6EE6F2C5F2C150091F361 /* Preview Assets.xcassets */,
+				B1ECF0392C604BCE006C6871 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		B1F6EE782C5F2C550091F361 /* Models */ = {
+		B1ECF0402C604BED006C6871 /* Structs */ = {
 			isa = PBXGroup;
 			children = (
-				B1F6EE792C5F2C5D0091F361 /* Employee.swift */,
-				B1F6EE7D2C5F2FAD0091F361 /* Role.swift */,
+				B1ECF0452C604C29006C6871 /* EmployeeStructs.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		B1ECF0412C604BFB006C6871 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B1ECF0432C604C15006C6871 /* EmployeeModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		B1F6EE7F2C5F31B90091F361 /* Views */ = {
+		B1ECF0422C604C07006C6871 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B1F6EE822C5F31F00091F361 /* EmployeeView.swift */,
-				B1F6EE862C5F382E0091F361 /* RoleView.swift */,
-				B1F6EE842C5F32070091F361 /* ScheduleView.swift */,
+				B1ECF04B2C604D45006C6871 /* EmployeeDetailView.swift */,
+				B1ECF0492C604CD1006C6871 /* EmployeeListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -104,39 +109,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B1F6EE622C5F2C140091F361 /* turbo-telegram */ = {
+		B1ECF02C2C604BCD006C6871 /* turbo-telegram-2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1F6EE732C5F2C150091F361 /* Build configuration list for PBXNativeTarget "turbo-telegram" */;
+			buildConfigurationList = B1ECF03D2C604BCE006C6871 /* Build configuration list for PBXNativeTarget "turbo-telegram-2" */;
 			buildPhases = (
-				B1F6EE5F2C5F2C140091F361 /* Sources */,
-				B1F6EE602C5F2C140091F361 /* Frameworks */,
-				B1F6EE612C5F2C140091F361 /* Resources */,
+				B1ECF0292C604BCD006C6871 /* Sources */,
+				B1ECF02A2C604BCD006C6871 /* Frameworks */,
+				B1ECF02B2C604BCD006C6871 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "turbo-telegram";
-			productName = "turbo-telegram";
-			productReference = B1F6EE632C5F2C140091F361 /* turbo-telegram.app */;
+			name = "turbo-telegram-2";
+			productName = "turbo-telegram-2";
+			productReference = B1ECF02D2C604BCD006C6871 /* turbo-telegram-2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B1F6EE5B2C5F2C140091F361 /* Project object */ = {
+		B1ECF0252C604BCD006C6871 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					B1F6EE622C5F2C140091F361 = {
+					B1ECF02C2C604BCD006C6871 = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = B1F6EE5E2C5F2C140091F361 /* Build configuration list for PBXProject "turbo-telegram" */;
+			buildConfigurationList = B1ECF0282C604BCD006C6871 /* Build configuration list for PBXProject "turbo-telegram-2" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -144,48 +149,47 @@
 				en,
 				Base,
 			);
-			mainGroup = B1F6EE5A2C5F2C140091F361;
-			productRefGroup = B1F6EE642C5F2C140091F361 /* Products */;
+			mainGroup = B1ECF0242C604BCD006C6871;
+			productRefGroup = B1ECF02E2C604BCD006C6871 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B1F6EE622C5F2C140091F361 /* turbo-telegram */,
+				B1ECF02C2C604BCD006C6871 /* turbo-telegram-2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B1F6EE612C5F2C140091F361 /* Resources */ = {
+		B1ECF02B2C604BCD006C6871 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1F6EE702C5F2C150091F361 /* Preview Assets.xcassets in Resources */,
-				B1F6EE6D2C5F2C150091F361 /* Assets.xcassets in Resources */,
+				B1ECF03A2C604BCE006C6871 /* Preview Assets.xcassets in Resources */,
+				B1ECF0372C604BCE006C6871 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B1F6EE5F2C5F2C140091F361 /* Sources */ = {
+		B1ECF0292C604BCD006C6871 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1F6EE692C5F2C140091F361 /* ContentView.swift in Sources */,
-				B1F6EE7A2C5F2C5D0091F361 /* Employee.swift in Sources */,
-				B1F6EE832C5F31F00091F361 /* EmployeeView.swift in Sources */,
-				B1F6EE852C5F32070091F361 /* ScheduleView.swift in Sources */,
-				B1F6EE6B2C5F2C140091F361 /* Item.swift in Sources */,
-				B1F6EE672C5F2C140091F361 /* turbo_telegramApp.swift in Sources */,
-				B1F6EE872C5F382E0091F361 /* RoleView.swift in Sources */,
-				B1F6EE7E2C5F2FAD0091F361 /* Role.swift in Sources */,
+				B1ECF0332C604BCD006C6871 /* ContentView.swift in Sources */,
+				B1ECF04C2C604D45006C6871 /* EmployeeDetailView.swift in Sources */,
+				B1ECF04A2C604CD1006C6871 /* EmployeeListView.swift in Sources */,
+				B1ECF0352C604BCD006C6871 /* Item.swift in Sources */,
+				B1ECF0312C604BCD006C6871 /* turbo_telegram_2App.swift in Sources */,
+				B1ECF0462C604C29006C6871 /* EmployeeStructs.swift in Sources */,
+				B1ECF0442C604C15006C6871 /* EmployeeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B1F6EE712C5F2C150091F361 /* Debug */ = {
+		B1ECF03B2C604BCE006C6871 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -248,7 +252,7 @@
 			};
 			name = Debug;
 		};
-		B1F6EE722C5F2C150091F361 /* Release */ = {
+		B1ECF03C2C604BCE006C6871 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -304,14 +308,14 @@
 			};
 			name = Release;
 		};
-		B1F6EE742C5F2C150091F361 /* Debug */ = {
+		B1ECF03E2C604BCE006C6871 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"turbo-telegram/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"turbo-telegram-2/Preview Content\"";
 				DEVELOPMENT_TEAM = 6W56PZLJZG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -325,7 +329,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pjb.den.turbo-telegram";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pjb.den.turbo-telegram-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -333,14 +337,14 @@
 			};
 			name = Debug;
 		};
-		B1F6EE752C5F2C150091F361 /* Release */ = {
+		B1ECF03F2C604BCE006C6871 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"turbo-telegram/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"turbo-telegram-2/Preview Content\"";
 				DEVELOPMENT_TEAM = 6W56PZLJZG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -354,7 +358,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pjb.den.turbo-telegram";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pjb.den.turbo-telegram-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -365,25 +369,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B1F6EE5E2C5F2C140091F361 /* Build configuration list for PBXProject "turbo-telegram" */ = {
+		B1ECF0282C604BCD006C6871 /* Build configuration list for PBXProject "turbo-telegram-2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B1F6EE712C5F2C150091F361 /* Debug */,
-				B1F6EE722C5F2C150091F361 /* Release */,
+				B1ECF03B2C604BCE006C6871 /* Debug */,
+				B1ECF03C2C604BCE006C6871 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B1F6EE732C5F2C150091F361 /* Build configuration list for PBXNativeTarget "turbo-telegram" */ = {
+		B1ECF03D2C604BCE006C6871 /* Build configuration list for PBXNativeTarget "turbo-telegram-2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B1F6EE742C5F2C150091F361 /* Debug */,
-				B1F6EE752C5F2C150091F361 /* Release */,
+				B1ECF03E2C604BCE006C6871 /* Debug */,
+				B1ECF03F2C604BCE006C6871 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B1F6EE5B2C5F2C140091F361 /* Project object */;
+	rootObject = B1ECF0252C604BCD006C6871 /* Project object */;
 }
