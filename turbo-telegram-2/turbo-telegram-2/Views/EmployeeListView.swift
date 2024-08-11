@@ -31,12 +31,15 @@ struct EmployeeList: View {
                 if(allEmployees.isEmpty) {
                     Text("No Employees to List")
                 } else {
-                    ForEach(allEmployees) {
-                        employee in
-                        NavigationLink("\(employee.lastName), \(employee.firstName)", destination: {
-                            EmployeeDetail(employee: employee)
-                        })
-                    }
+                    ScrollView(content: {
+                        ForEach(allEmployees) {
+                            employee in
+                            NavigationLink("\(employee.lastName), \(employee.firstName)", destination: {
+                                EmployeeDetail(employee: employee)
+                            })
+                        }
+                    })
+                    
                 }
             }
         }.tint(.black)
